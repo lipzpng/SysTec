@@ -1,6 +1,5 @@
 <h4>Nova Peça</h4>
 
-<!-- <form action="?page=salvar" method="POST" onsubmit="return validarCadastro()"> -->
 <form action="?page=salvar" method="POST"  onsubmit="return validarCadastro()">
     <input type="hidden" name="acao" value="cadastrar" >
 
@@ -27,4 +26,4 @@
     <div class="form-group">
         <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
-</form>
+</form> required
